@@ -175,6 +175,7 @@ Each event shown on the calendar can have the following properties. `startDate` 
 * `id` - A unique identifier for the event. Defaults to a randomly-generated string.
 * `url` - The URL associated with the event. The component has no built-in action associated with this, but it does add a "hasUrl" class to the event. To "follow" the URL, you'll need to listen for the `click-event` event and take the appropriate action.
 * `classes` - A String with any additional CSS classes you wish to use for the event.
+* `css` - A string with any additional raw CSS you wish to use on the event element.
 
 ## Component Events
 The following Vue events are raised by the component, which you can catch in your calling application to respond to user actions:
